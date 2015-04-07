@@ -1,0 +1,8 @@
+#!/bin/bash 
+if [ install = "$1" -o upgrade = "$1" ]; then
+        # This would not work if calamares package gets updated
+	#sed -i -r -e "s|^#?branding:.*\$|branding: netrunner-debian|" \
+	#	/etc/calamares/settings.conf
+        # Use dpkg-divert 
+	dpkg-divert --package calamares-branding --add --rename --divert /etc/calamares/settings.conf.orig /etc/calamares/settings.conf
+fi 

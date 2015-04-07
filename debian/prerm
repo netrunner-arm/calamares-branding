@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" -o purge = "$1" ]; then
+	dpkg-divert --package calamares-branding --remove --rename --divert /etc/calamares/settings.conf.orig /etc/calamares/settings.conf
+fi 

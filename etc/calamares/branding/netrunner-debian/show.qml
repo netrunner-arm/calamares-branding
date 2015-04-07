@@ -169,7 +169,7 @@ Presentation
             anchors.top: background7.bottom
             text: "In the FOSS Community, you always find a helping hand.<br/>"+
                   "If you have a question, take a look at our forums.<br/>"+
-                  "<a href="http://netrunner-os.com/forums" title="netrunner-os.com/forums">Netrunner Forums</a> You're very much welcome!"
+                  "<a href=\"http://netrunner.com/forums\" title=\"netrunner.com/forums\">Netrunner Forums</a> You're very much welcome!"
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center

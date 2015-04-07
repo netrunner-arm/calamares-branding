@@ -1,0 +1,12 @@
+Source: calamares-branding
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: calamares-branding
+Architecture: all
+Depends: calamares
+Description: Branding for Calamares Installer
+   Provides the Netrunner specific branding for the Calamares Installer
