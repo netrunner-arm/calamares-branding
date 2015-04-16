@@ -2,11 +2,11 @@
 componentName:  netrunner-debian
 
 strings:
-    productName:         Netrunner Debian Continuous Integration
-    shortProductName:    Netrunner Debian CI
+    productName:         Netrunner Debian Edition
+    shortProductName:    Netrunner Debian 
     version:             1.0.0-dev
     shortVersion:        1.0
-    versionedName:       Netrunner Debian CI "Codename"
+    versionedName:       Netrunner Debian Edition 
     shortVersionedName:  Netrunner Debian 1.0
     bootloaderEntryName: Netrunner Debian
 
