@@ -30,7 +30,7 @@ Presentation
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
-    
+
     Slide {
 
         Image {
@@ -43,8 +43,8 @@ Presentation
         Text {
             anchors.horizontalCenter: background1.horizontalCenter
             anchors.top: background1.bottom
-            text: "Welcome to Netrunner Debian.<br/>"+
-                  "During the installation, this slideshow will give you a quick introduction."
+            text: qsTr("Welcome to Netrunner Debian.<br/>"+
+                       "During the installation, this slideshow will give you a quick introduction.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -63,9 +63,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background2.horizontalCenter
             anchors.top: background2.bottom
-            text: "Netrunner is made of free software.<br/>"+
-                  "The new KDE Plasma 5 desktop is chosen for its easy of use.<br/>"+
-                  "It offers many options to customize in the simplified System Settings."
+            text: qsTr("Netrunner is made of free software.<br/>"+
+                       "The new KDE Plasma 5 desktop is chosen for its easy of use.<br/>"+
+                       "It offers many options to customize in the simplified System Settings.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -84,9 +84,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background3.horizontalCenter
             anchors.top: background3.bottom
-            text: "There are many applications on board for a great web-experience:<br/>"+
-                  "Browse the internet with Firefox and send emails with Thunderbird.<br/>"+
-                  "Use Skype or Telepathy to connect with friends and family."
+            text: qsTr("There are many applications on board for a great web-experience:<br/>"+
+                       "Browse the internet with Firefox and send emails with Thunderbird.<br/>"+
+                       "Use Skype or Telepathy to connect with friends and family.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -105,9 +105,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background4.horizontalCenter
             anchors.top: background4.bottom
-            text: "Netrunner covers your creativity with many applications such as LibreOffice, CalligraFlow and Gimp.<br/>"+
-                  "There's Karbon for vector-based pictures and Krita for the pixel-artist in you.<br/>"+
-                  "Use Gwenview to organize your photos and Kdenlive for creating your own videos."
+            text: qsTr("Netrunner covers your creativity with many applications such as LibreOffice, CalligraFlow and Gimp.<br/>"+
+                       "There's Karbon for vector-based pictures and Krita for the pixel-artist in you.<br/>"+
+                       "Use Gwenview to organize your photos and Kdenlive for creating your own videos.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -126,9 +126,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background5.horizontalCenter
             anchors.top: background5.bottom
-            text: "Netrunner can play most video and sound formats out-of-the-box.<br/>"+
-                  "There is VLC media player to watch movies and handbrake to convert them into a different format.<br/>"+
-                  "Use Gmusicbrowser to listen to your local collection and radiotray for your internet music."
+            text: qsTr("Netrunner can play most video and sound formats out-of-the-box.<br/>"+
+                       "There is VLC media player to watch movies and handbrake to convert them into a different format.<br/>"+
+                       "Use Gmusicbrowser to listen to your local collection and radiotray for your internet music.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -147,9 +147,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background6.horizontalCenter
             anchors.top: background6.bottom
-            text: "We want you to enjoy your computing!<br/>"+
-                  "For commercial titles, Steam is supported.<br/>"+
-                  "Or have fun with the classics installed."
+            text: qsTr("We want you to enjoy your computing!<br/>"+
+                       "For commercial titles, Steam is supported.<br/>"+
+                       "Or have fun with the classics installed.")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -168,9 +168,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background7.horizontalCenter
             anchors.top: background7.bottom
-            text: "In the FOSS Community, you always find a helping hand.<br/>"+
-                  "If you have a question, take a look at our forums.<br/>"+
-                  "<a href=\"http://netrunner.com/forums\" title=\"netrunner.com/forums\">Netrunner Forums</a> You're very much welcome!"
+            text: qsTr("In the FOSS Community, you always find a helping hand.<br/>"+
+                       "If you have a question, take a look at our forums.<br/>"+
+                       "<a href=\"http://netrunner.com/forums\" title=\"netrunner.com/forums\">Netrunner Forums</a> You're very much welcome!")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -189,9 +189,9 @@ Presentation
         Text {
             anchors.horizontalCenter: background8.horizontalCenter
             anchors.top: background8.bottom
-            text: "Netrunner stands on the shoulders of Giants.<br/>"+
-                  "The continuous work of thousands of people make it a reality.<br/>"+
-                  "We like to say THANK YOU to everyone involved!"
+            text: qsTr("Netrunner stands on the shoulders of Giants.<br/>"+
+                       "The continuous work of thousands of people make it a reality.<br/>"+
+                       "We like to say THANK YOU to everyone involved!")
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
