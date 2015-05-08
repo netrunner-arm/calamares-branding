@@ -2,8 +2,8 @@
 host = https://www.transifex.com
 
 [netrunner-calamares.branding-netrunner-debian]
-file_filter = etc/calamares/branding/netrunner-debian/lang/calamares-netrunner-debian_<lang>.ts
-source_file = etc/calamares/branding/netrunner-debian/lang/calamares-netrunner-debian_en.ts
+file_filter = netrunner-debian/lang/calamares-netrunner-debian_<lang>.ts
+source_file = netrunner-debian/lang/calamares-netrunner-debian_en.ts
 source_lang = en
 type = QT
 
