@@ -13,6 +13,7 @@ strings:
 images:
     productLogo:         "netrunner-debian-logo.png"
     productIcon:         "netrunner-debian-icon.png"
+    productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"
 
